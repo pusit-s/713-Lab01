@@ -1,11 +1,14 @@
-let x = -7
+let score = 69
 
-if (x > 10) {
-    console.log('x is more than 10')
+if (score > 80) {
+    console.log('A')
 } 
-else if (x < 5) {
-    console.log('x is less than 5')
+else if (score > 60) {
+    console.log('B')
+}
+else if (score > 50) {
+    console.log('C')
 }
 else {
-    console.log('x is between 5 and 10')
+    console.log('F')
 }
