@@ -1,5 +1,10 @@
-function greet(name) {
-  return 'Hello ' + name;
+function summation(score) {
+    let sum = 0;
+    for (let i = 0; i < score.length; i++) {
+        sum += score[i];
+    }
+    return sum;
 }
 
-console.log(greet('John'));
+score = [10,20,30]
+console.log(summation(score));
