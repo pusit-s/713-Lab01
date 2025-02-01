@@ -1,9 +1,11 @@
-let x = 9
-let y = 13
+let x = -7
 
-if (x > 5 & y > 12) {
-    console.log('ค่ามากจัง')
-} else {
-    let z = (x * y) + (x / y)
-    console.log(z)
+if (x > 10) {
+    console.log('x is more than 10')
+} 
+else if (x < 5) {
+    console.log('x is less than 5')
+}
+else {
+    console.log('x is between 5 and 10')
 }
