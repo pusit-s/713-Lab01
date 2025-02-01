@@ -1,5 +1,4 @@
-let v1 = 10;
-let v2 = 12;
-let sum = v1 + v2;
-
-console.log("Sum: " + sum);
+let x = 10
+if (x > 10) {
+    console.log('x is more than 10')
+}
