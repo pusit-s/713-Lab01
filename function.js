@@ -1,3 +1,10 @@
-const multiply = (x, y) => {return x * y}
+const bigger = (x, y) => {
+    if (x > y) {
+        return x;
+    } 
+    else {
+        return y;
+    }
+}
 
-console.log(multiply(5, 10))
+console.log(bigger(11, 10))
