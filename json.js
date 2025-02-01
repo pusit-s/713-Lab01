@@ -1,10 +1,16 @@
-const object = {
+const student = {
     name: 'John',
+    surname: 'Doe',
     age: 30,
-    city: 'New York'
+    grade: 3.99,
 };
 
-console.log(object);
-console.log(object.name);
-const jsonStr = JSON.stringify(object);
-console.log(jsonStr);
+const gradeChecker = (student) => {
+    if (student.grade > 2) {
+        return JSON.stringify(student);
+    } else {
+        return 'คุณ ' + student.name + ' พ้นสภาพ';
+    }
+}
+
+console.log(gradeChecker(student));
